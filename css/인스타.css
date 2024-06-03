@@ -1,0 +1,149 @@
+.container{
+  width: 935px;
+  margin: 0 auto;
+}
+.img_boxox{
+  display: flex;
+  justify-content: center;
+  
+}
+.img_boxox img{
+  width: 100px;
+  
+}
+.insta_logo .img_boxox img{
+  border-radius: 50%;
+  border: 1px solid black;
+  
+}
+.insta_logo{
+  padding-bottom: 20px;
+}
+.insta_logo .buttons button{
+  margin-left: 10px;
+   
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  
+}
+.insta_highlight{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  
+
+}
+.insta_highlight .highlight  p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  
+}
+.highlight{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 피드박스 제일큰거 */
+.feed_boxs{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -3px;
+  margin-right: -3px;
+  
+}
+.con_box{
+  margin: 3px;
+  width: calc(33.333% - 6px);
+  height: 270px;
+  cursor: pointer;
+  background-color: lavender;
+  position: relative; 
+  
+}
+.con_box:hover .back_box{
+  opacity: 1;
+}
+.back_box{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;     
+  transition: 0.3s;
+}
+.like_box{
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.back_box .like_box img{
+  width: 25px;
+  height: 25pxs;
+}
+.highlight .con{
+  border-radius: 50%;
+  border: 1px solid #c4c4c4;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.highlight p{
+  font-size: 15px;
+  width: 100%;
+  
+}
+.highlight .con img{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.feed_boxs .feed1{
+  background: url(./img/insta_1.jpg) no-repeat center top / cover;
+}
+.feed_boxs .feed2{
+  background: url(./img/insta_2.jpg) no-repeat center top / cover;
+}
+.feed_boxs .feed3{
+  background: url(./img/insta_3.jpg) no-repeat center top / cover;
+}
+.feed_boxs .feed4{
+  background: url(./img/insta_4.jpg)no-repeat center top / cover;
+}
+.feed_boxs .feed5{
+  background: url(./img/insta_5.jpg)no-repeat center top / cover;
+}
+.feed_boxs .feed6{
+  background: url(./img/insta_6.jpg)no-repeat center top / cover;
+}
+.feed_boxs .feed7{
+  background: url(./img/insta_7.jpg)no-repeat center top / cover;
+}
+.feed_boxs .feed8{
+  background: url(./img/insta_8.jpg)no-repeat center top / cover;
+}
+.feed_boxs .feed9{
+  background: url(./img/insta_9.jpg)no-repeat center top / cover;
+}
+.feed_boxs .feed10{
+  background: url(./img/insta_10.jpg)no-repeat center top / cover;
+}
+.feed_boxs .feed11{
+  background: url(./img/insta_11.jpg)no-repeat center top / cover;
+}
+.feed_boxs .feed12{
+  background: url(./img/insta_12.jpg)no-repeat center top / cover;
+}

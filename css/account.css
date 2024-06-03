@@ -1,0 +1,46 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+
+  
+}
+.input{
+  display: flex;
+  flex-direction: column;
+}
+.input{
+  margin-top: 20px;
+  
+  
+}
+input{
+  width: 400px;
+  height: 30px;
+  margin: 4px 0px;
+  border-radius: 5px;
+  
+}
+.sign{
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 38px;
+  border-radius: 10px;
+}
+.forgot{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+.header-area{
+  background-color: beige;
+}

@@ -1,0 +1,60 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contaienr{
+  padding: 100px;
+}
+.top-text{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.top-text h3{
+  
+  border-bottom: 1px solid black;
+  display: inline;
+  
+}
+.top-text p{
+  margin-top: 30px;
+}
+.top-text 
+img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.middletext{
+  display: flex;
+  margin: 100px 0;
+}
+.middlebottomtext{
+  text-align: center;
+  margin: 100px 0;
+}
+.bottomtext{
+  display: flex;
+  
+
+}
+.bottomtext div{
+  margin: 50px;
+}
+/* 중간텍스트 */
+.middletext1{
+  margin-right: 20px;
+  
+}
+/* 미들바텀텍스트 */
+.middlebottomtext h3{
+  margin-bottom: 20px;
+}
+
+.bottomtxt{
+  margin: 20px;
+  
+}
